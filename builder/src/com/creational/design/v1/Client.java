@@ -1,7 +1,8 @@
-package com.creational.design;
+package com.creational.design.v1;
 
 import java.time.LocalDate;
 
+// Our Client class works as a Director
 public class Client {
     public static void main(String[] args) {
         User user = createUser();
@@ -19,7 +20,9 @@ public class Client {
                 .build();
     }
 
-    // Sample User
+    /**
+     * Returns a sample user
+     */
     public static User createUser() {
         User user = new User();
         user.setFirstName("John");

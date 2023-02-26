@@ -1,4 +1,4 @@
-package com.creational.design;
+package com.creational.design.v1;
 
 import java.time.LocalDate;
 
@@ -8,7 +8,6 @@ public class UserWebDTOBuilder implements UserDTOBuilder{
     String age;
     String address;
     UserWebDTO dto;
-
 
     @Override
     public UserWebDTOBuilder withFirstName(String fname) {

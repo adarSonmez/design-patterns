@@ -1,4 +1,4 @@
-package com.creational.design;
+package com.creational.design.v1;
 
 public class Address {
     private String houseNumber;
