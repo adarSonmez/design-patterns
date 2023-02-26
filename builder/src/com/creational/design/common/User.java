@@ -1,4 +1,4 @@
-package com.creational.design.v1;
+package com.creational.design.common;
 
 import java.time.LocalDate;
 
@@ -24,7 +24,7 @@ public class User {
         this.lastName = lastName;
     }
 
-    public LocalDate getBirthdate() {
+    public LocalDate getBirthday() {
         return birthday;
     }
 

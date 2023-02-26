@@ -1,13 +1,15 @@
 package com.creational.design.v1;
 
+import com.creational.design.common.Address;
+
 import java.time.LocalDate;
 
 public class UserWebDTOBuilder implements UserDTOBuilder{
-    String firstName;
-    String lastName;
-    String age;
-    String address;
-    UserWebDTO dto;
+    private String firstName;
+    private String lastName;
+    private String age;
+    private String address;
+    private UserWebDTO dto;
 
     @Override
     public UserWebDTOBuilder withFirstName(String fname) {

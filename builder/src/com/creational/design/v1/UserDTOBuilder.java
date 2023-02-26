@@ -1,5 +1,7 @@
 package com.creational.design.v1;
 
+import com.creational.design.common.Address;
+
 import java.time.LocalDate;
 
 public interface UserDTOBuilder {
